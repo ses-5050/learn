@@ -17,7 +17,7 @@ public class a extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         System.out.println("Servlet GET");
-        System.out.println("Doneeeeeeeeeee");
+        response.getWriter().write("done");
     }
 
    
